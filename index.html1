@@ -1,10 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
-  <title>Page Title</title>
+    <meta charset="UTF-8">
+    <title>作業表格</title>
+    <style>
+        /* 這裡處理 CSS 樣式要求 */
+        table {
+            width: 50%;
+            border: 1px solid black;
+            /* 規範：邊框合併為單一邊框 */
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            /* 規範：內距 5px */
+            padding: 5px;
+            /* 規範：文字靠左 */
+            text-align: left;
+        }
+
+        th {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-  <h1>Yan-An-Lo</h1>
-  <p>Hello! 113401542</p>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Student ID</th>
+        </tr>
+        <tr>
+            <td>羅妍安</td>
+            <td>113401542</td>
+        </tr>
+    </table>
+
 </body>
 </html>
